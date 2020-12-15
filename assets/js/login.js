@@ -15,8 +15,8 @@ let form = layui.form;
 form.verify({
   repass: function (value, item) {
     //value：表单的值、item：表单的DOM对象
-    console.log($("#iptPwd").val());
-    console.log(value);
+    // console.log($("#iptPwd").val());
+    // console.log(value);
     if (value !== $("#iptPwd").val()) {
       return "两次密码不一致";
     }
